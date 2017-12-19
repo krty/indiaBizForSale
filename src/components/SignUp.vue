@@ -269,7 +269,7 @@ input[type="text"]{
     margin-bottom:3px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 500px) {
+@media only screen (max-width:767px) {
      .dashboard-container{
             
     padding:30px 0;
@@ -312,7 +312,7 @@ input[type="text"]{
         font-size: 14px;
     }
     }
-    @media screen and (min-width: 501px) and (max-width: 703px) {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
      .dashboard-container{
     padding:30px 0;
     margin-left:25%;
@@ -341,34 +341,7 @@ margin-top:5%;
     }
 }
 
-@media screen and (min-width: 704px) and (max-width: 839px) {
-         .dashboard-container{
-    padding:30px 0;
-    margin-left:20%;
-    width:70%;
-    text-align:left;
-        }
-        .dashboard-context{
-    font-size:18px;
-    font-weight:600;
-    margin-bottom: 30px;
- }
- .radio{
-    margin-left:30px;
- }
- .primary-button{
-    margin-left:0px;
-    width:42%;
-height: 36px;
-border:0;
-border-radius:3px;
-background-color:#3497DB;
-color:#fff;
-font-size: 18px !important;
-font-weight: 600 !important;
-margin-top:5%;
-    }
-    }
+
 
 
 </style>
